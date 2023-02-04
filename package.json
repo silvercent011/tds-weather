@@ -11,6 +11,7 @@
   "devDependencies": {
     "@nuxtjs/tailwindcss": "^6.3.1",
     "husky": "^8.0.0",
-    "nuxt": "^3.1.2"
+    "nuxt": "^3.1.2",
+    "nuxt-icon": "^0.2.10"
   }
 }
