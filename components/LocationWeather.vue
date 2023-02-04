@@ -1,9 +1,12 @@
 <template>
-  <h1>{{ location.name }}</h1>
-  <h1>{{ weather.condition.text }}</h1>
-  <CurrentWeather :weatherData="weather" />
-  <HoursComponent :hours="day" />
-  <BottomStats :weatherData="weather" />
+  <div class="text-center">
+    <h1 class="text-6xl">{{ location.name.toUpperCase() }}</h1>
+    <h1 class="text-2xl">{{ weather.condition.text.toLowerCase() }}</h1>
+    <CurrentWeather :weatherData="weather" />
+    <Icon name="wi:day-cloudy" size="200px" />
+    <HoursComponent :hours="day" />
+    <BottomStats :weatherData="weather" />
+  </div>
 </template>
 
 <script setup lang="ts">

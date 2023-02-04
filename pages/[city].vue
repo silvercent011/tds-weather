@@ -1,5 +1,7 @@
 <template>
-  <div>
+  <div
+    class="flex flex-col justify-center items-center w-full h-screen text-white bg-gray-800"
+  >
     <div v-if="pending">LOADING</div>
     <div v-else>
       <LocationWeather :weatherData="data" />
