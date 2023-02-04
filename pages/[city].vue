@@ -1,13 +1,7 @@
 <template>
   <div>
     <div v-if="pending">LOADING</div>
-    <div v-else>
-      <pre>
-
-         {{ data }}
-        </pre
-      >
-    </div>
+    <div v-else></div>
   </div>
 </template>
 
