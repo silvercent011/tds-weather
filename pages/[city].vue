@@ -14,6 +14,7 @@ const { pending, data } = useLazyFetch(`${API_URL}/forecast.json`, {
   params: {
     key: API_KEY,
     q: city,
+    days: 1,
   },
 });
 </script>
